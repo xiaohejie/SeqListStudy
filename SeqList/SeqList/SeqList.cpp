@@ -17,7 +17,12 @@ void SeqListInit(SL* ps) {
 	ps->size = 0;
 	ps->capacity = 4;
 }
-
+//动态销毁
+void SeqListDestroy(SL* ps) {
+	free(ps->a);
+	ps->a = NULL;
+	ps->size = ps->capacity = 0;
+}
 //进行打印
 void SeqListPrint(SL* ps) {
 	assert(ps);
@@ -87,6 +92,7 @@ void SeqListPopFront(SL* ps) {
 //任意位置的插入
 void SeqListInsert(SL* ps, int pos, SLDataType x) {
 	assert(ps);
+	assert(pos <= ps->size && pos >= 0);
 	SeqListCheckCapacity(ps);
 
 	int end = ps->size - 1;
@@ -101,6 +107,7 @@ void SeqListInsert(SL* ps, int pos, SLDataType x) {
 //任意位置的删除
 void SeqListErase(SL* ps, int pos) {
 	assert(ps);
+	assert(pos >= 0 && pos < ps->size);
 	SeqListCheckCapacity(ps);
 
 	for (size_t i = pos; i < ps->size - 1; i++)
@@ -109,3 +116,17 @@ void SeqListErase(SL* ps, int pos) {
 	}
 	ps->size--;
 }
+
+//查找元素的下标
+int SeqListFind(SL* ps, SLDataType x) {
+	assert(ps);
+
+	for (int i = 0; i < ps->size; i++)
+	{
+		if (x == ps->a[i]) {
+			return i;
+		}
+	}
+	return -1;
+}
+

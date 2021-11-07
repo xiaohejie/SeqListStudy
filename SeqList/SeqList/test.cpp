@@ -45,6 +45,14 @@ void TestSeqList1() {
 	SeqListErase(&s ,1);
 
 	SeqListPrint(&s);
+
+	int pos = SeqListFind(&s, 2);
+	if (pos != -1) {
+		SeqListErase(&s, pos);
+	}
+
+	SeqListPrint(&s);
+	SeqListDestroy(&s);
 }	
 int main() {
 	TestSeqList1();

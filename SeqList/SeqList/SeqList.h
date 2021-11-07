@@ -30,6 +30,7 @@ typedef struct SeqList {
 }SL , SeqList;
 
 void SeqListInit(SL* ps);
+void SeqListDestroy(SL* ps);
 void SeqListPrint(SL* ps);
 void SeqListCheckCapacity(SL* ps);
 //实现尾插尾删，头插头删四个接口
@@ -41,3 +42,6 @@ void SeqListPopFront(SL* ps);
 //任意位置的插入删除
 void SeqListInsert(SL* ps , int pos , SLDataType x);
 void SeqListErase(SL* ps , int pos);
+
+//查找元素
+int SeqListFind(SL* ps , SLDataType x);
