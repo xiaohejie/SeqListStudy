@@ -38,5 +38,14 @@
     <ClCompile Include="迷宫问题.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="427-建立二叉树.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="417-太平洋大西洋水流问题.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="79-单词搜索.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

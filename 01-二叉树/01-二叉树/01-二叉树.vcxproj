@@ -150,7 +150,8 @@
     <ClCompile Include="07-字典序的第K小数字（440）.cpp" />
     <ClCompile Include="257-二叉树的所有路径.cpp" />
     <ClCompile Include="310-最小高度树.cpp" />
-    <ClCompile Include="草稿.cpp" />
+    <ClCompile Include="二叉树的最近公共祖先.cpp" />
+    <ClCompile Include="00-草稿.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

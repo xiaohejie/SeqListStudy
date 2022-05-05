@@ -18,5 +18,8 @@
     <ClCompile Include="24-两两交换链表中的结点.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="92-反转链表II.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

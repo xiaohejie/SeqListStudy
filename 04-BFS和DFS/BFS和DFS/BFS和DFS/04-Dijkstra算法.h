@@ -22,7 +22,7 @@
 //map<char, char>p;    // 记录 BFS 树
 //map<char, int>dis;    // 记录 点i 到源点的最短距离    
 //vector<char>vis;    // 记录在 BFS 过程中 点i 有无被遍历过
-//void BFS(char start)
+//void Dijkstra(char start)
 //{
 //    // 初始化
 //    vis.clear();

@@ -5,7 +5,7 @@ int dx[4] = {0, 1, 0, -1};
 int dy[4] = {1, 0, -1, 0};
 //申请队列
 queue<point> r;
-int main() {
+int main2() {
 	//输入(m,n:迷宫有多大      startx,starty:起始位置      p,q:迷宫出口)
 	int m, n, startx, starty, p, q;
 	int flag = 0;
