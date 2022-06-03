@@ -48,5 +48,14 @@
     <ClCompile Include="00-草稿.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="99-恢复二插搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="102-二叉树的层序遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1022-从根到叶的二进制数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

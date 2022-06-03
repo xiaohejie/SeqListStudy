@@ -148,8 +148,11 @@
     <ClCompile Include="05-根据二叉树创建字符串.cpp" />
     <ClCompile Include="06-整数转罗马数字（12）.cpp" />
     <ClCompile Include="07-字典序的第K小数字（440）.cpp" />
+    <ClCompile Include="102-二叉树的层序遍历.cpp" />
+    <ClCompile Include="1022-从根到叶的二进制数之和.cpp" />
     <ClCompile Include="257-二叉树的所有路径.cpp" />
     <ClCompile Include="310-最小高度树.cpp" />
+    <ClCompile Include="99-恢复二插搜索树.cpp" />
     <ClCompile Include="二叉树的最近公共祖先.cpp" />
     <ClCompile Include="00-草稿.cpp" />
   </ItemGroup>

@@ -98,4 +98,4 @@ int main() {
 	cout << "高度为：" << get_height(tree->root) << endl;
 	cout << "最大值为：" << getMax(tree->root) << endl;
 	return 0;
-}
+}	

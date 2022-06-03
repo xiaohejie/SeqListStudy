@@ -16,7 +16,7 @@ struct TreeNode {
 class Solution {
 public:
     int minDepth(TreeNode* root) {
-        int len = 0, minLen = INT_MAX;
+        int minLen = INT_MAX;
         if (root == nullptr) {
             return 0;
         }

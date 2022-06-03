@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include<vector>
 using namespace std;
 /*
 	实现一个二叉搜索树迭代器类BSTIterator ，表示一个按中序遍历二叉搜索树（BST）的迭代器：
@@ -10,3 +11,42 @@ using namespace std;
 
 		可以假设 next() 调用总是有效的，也就是说，当调用 next() 时，BST 的中序遍历中至少存在一个下一个数字。	
 */
+struct TreeNode {
+	int val;
+	TreeNode* left;
+	TreeNode* right;
+	TreeNode() : val(0), left(nullptr), right(nullptr) {}
+	TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+	TreeNode(int x, TreeNode* left, TreeNode* right) : val(x), left(left), right(right) {}
+};
+class BSTIterator {
+	void inorder(TreeNode* root, vector<int>& res) {
+		if (!root) {
+			return;
+		}
+		inorder(root->left, res);
+		res.push_back(root->val);
+		inorder(root->right, res);
+	}
+	vector<int> inorderTraversal(TreeNode* root) {
+		vector<int> res;
+		inorder(root, res);
+		return res;
+	}
+
+	vector<int> arr;
+	int idx;
+
+public:
+	BSTIterator(TreeNode* root): idx(0), arr(inorderTraversal(root)) {
+
+	}
+
+	int next() {
+		return arr[idx++];
+	}
+
+	bool hasNext() {
+		return (idx < arr.size());
+	}
+};
