@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="00-草稿.cpp" />
+    <ClCompile Include="114. 二叉树展开为链表.cpp" />
+    <ClCompile Include="149-排序链表.cpp" />
     <ClCompile Include="24-两两交换链表中的结点.cpp" />
     <ClCompile Include="92-反转链表II.cpp" />
   </ItemGroup>

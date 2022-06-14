@@ -24,5 +24,11 @@
     <ClCompile Include="00-草稿.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="114. 二叉树展开为链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="149-排序链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
