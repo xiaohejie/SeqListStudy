@@ -1,6 +1,7 @@
 #include<iostream>
 #include<queue>
 #include<vector>
+#include<algorithm>
 using namespace std;
 /*
 	¶þ²æÊ÷µÄ²ãÐò±éÀú£º
@@ -41,6 +42,7 @@ public:
 				if (newNode->right) { que.push(newNode->right);
 				}
 			}
+			
 			ans.push_back(res);
 		}
 		return ans;

@@ -30,5 +30,8 @@
     <ClCompile Include="149-排序链表.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="剑指 Offer II 029. 排序的循环链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

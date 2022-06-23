@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="109-有序链表转换二叉搜索树.cpp" />
     <ClCompile Include="270-最接近的二插搜索树值.cpp" />
     <ClCompile Include="449-序列化和反序列化二插搜索树.cpp" />
     <ClCompile Include="95-不同的二插搜索树II.cpp" />

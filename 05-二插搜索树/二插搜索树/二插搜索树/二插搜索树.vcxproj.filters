@@ -36,5 +36,8 @@
     <ClCompile Include="95-不同的二插搜索树II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="109-有序链表转换二叉搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
