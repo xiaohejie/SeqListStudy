@@ -153,9 +153,11 @@
     <ClCompile Include="1022-从根到叶的二进制数之和.cpp" />
     <ClCompile Include="105-从前序和中序遍历序列中构造二叉树.cpp" />
     <ClCompile Include="106-从中序和后序遍历序列构造二叉树.cpp" />
+    <ClCompile Include="116. 填充每个节点的下一个右侧节点指针.cpp" />
     <ClCompile Include="257-二叉树的所有路径.cpp" />
     <ClCompile Include="310-最小高度树.cpp" />
     <ClCompile Include="508-出现次数最多的子树元素和.cpp" />
+    <ClCompile Include="814-二叉树剪枝.cpp" />
     <ClCompile Include="99-恢复二插搜索树.cpp" />
     <ClCompile Include="二叉树的最近公共祖先.cpp" />
     <ClCompile Include="00-草稿.cpp" />
