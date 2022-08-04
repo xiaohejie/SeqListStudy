@@ -158,6 +158,7 @@
     <ClCompile Include="310-最小高度树.cpp" />
     <ClCompile Include="508-出现次数最多的子树元素和.cpp" />
     <ClCompile Include="814-二叉树剪枝.cpp" />
+    <ClCompile Include="919完全二叉树插入器.cpp" />
     <ClCompile Include="99-恢复二插搜索树.cpp" />
     <ClCompile Include="二叉树的最近公共祖先.cpp" />
     <ClCompile Include="00-草稿.cpp" />

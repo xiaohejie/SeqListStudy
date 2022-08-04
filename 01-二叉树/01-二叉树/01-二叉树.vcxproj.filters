@@ -75,5 +75,8 @@
     <ClCompile Include="814-二叉树剪枝.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="919完全二叉树插入器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
